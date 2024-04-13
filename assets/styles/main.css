@@ -1,0 +1,243 @@
+@import url("https://fonts.cdnfonts.com/css/open-sans-condensed-2");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+nav ul li {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+nav > button {
+  padding: 12px 24px;
+  color: #de2e54;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  background: transparent;
+}
+
+.showcase {
+  background: url("../images/image\ 4\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.showcase-df {
+  display: flex;
+  justify-content: space-between;
+}
+.showcase-df > div {
+  flex: 1;
+}
+.showcase-left h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  color: #fff;
+  margin-top: 140px;
+}
+
+.showcase-left > button {
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background: #de2e54cc;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-top: 49px;
+}
+
+.showcase-right {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 100%;
+}
+
+main h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  color: #000000;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.right h3 {
+  font-size: 24px;
+  color: #222222;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.right p {
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding-bottom: 245px;
+}
+
+.service > div {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  max-width: 864px;
+}
+
+.service .left {
+  width: 40%;
+}
+
+.service img {
+  width: 100%;
+  min-width: 200px;
+}
+
+.service > div:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.service p {
+  color: #333;
+  line-height: 24px;
+}
+
+.info {
+  padding: 284px 0 54px;
+  background: #0eb4c1;
+  position: relative;
+}
+
+.info-img {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -17%;
+  left: 50%;
+  transform: translateX(-61.5%);
+  gap: 10%;
+}
+
+.info-address {
+  display: flex;
+  gap: 5%;
+}
+.location {
+  max-height: 331px;
+}
+.location iframe {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 331px !important;
+}
+
+.info-address > div {
+  flex: 1;
+}
+
+.info form {
+  width: 50%;
+  max-width: 540px;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: white;
+  border-radius: 10px;
+  padding: 27px 40px 52px;
+}
+
+.info form input {
+  padding: 7px 32px 6px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+
+.info form button {
+  padding: 6px;
+  background: #000;
+  background: #38cc8b;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+  font-size: 15px;
+  line-height: 26px;
+  border-radius: 6px;
+  box-shadow: 0px -4px 0px 0px #00000017 inset;
+}
+
+footer {
+  background: #222222;
+}
+
+footer>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+footer ul {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  gap: 32px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+ul>li:hover {
+  color: #DE2E54;
+}
